@@ -1,0 +1,33 @@
+.footer {
+    background-color: black;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+}
+
+.footer-linkedin {
+    color: white;
+    background: var(--my-red);
+    font-size: 1.25em;
+    padding: .5em;
+    border-radius: 50%;
+}
+
+.contact {
+    text-align: center;
+    color: var(--my-red);
+
+}
+
+.quote {
+    width: 35%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.contact,
+.quote {
+    letter-spacing: .5px;
+    line-height: 1.25em;
+}

@@ -1,0 +1,97 @@
+.App {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.app-main {
+    height: 70%;
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('../../img/barbell.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 4em;
+}
+
+.app-main-content{
+    background-color: rgba(0,0,0,0.75);
+    width: 70%;
+    margin: 0 auto;
+    padding: 2em 0em;
+    border-radius: .5em;
+    color: whitesmoke;
+}
+
+.app-main-h1 {
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.app-main-p {
+    padding: 0em 2em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+
+
+
+
+/*****************************
+ *                           *
+ *       Media Query         *
+ *                           *
+ *************************** */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 560px) {
+    /* Styles */
+    .quote,
+    .contact {
+      font-size: .75em;
+    }
+    .nav-img {
+        padding-left: 2em;
+        width: 100%;
+    }
+    .app-main-h1{
+        font-size: 1.25em;
+    }
+    .app-main-p {
+        font-size: .75em;
+        text-align: left;
+    }
+    .app-main-content {
+        width: 75%;
+    }
+  }
+
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles */
+   
+  }
+
+  /* Desktops and laptops ----------- */
+  @media only screen and (min-width: 1224px) {
+    /* Styles */
+    body {
+      background-color: white !important;
+    }
+  }
+  /* Large screens ----------- */
+  @media only screen and (min-width: 1824px) {
+    /* Styles */
+    body {
+      background-color: black !important;
+    }
+  }
+  /* iPhone 4 ----------- */
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+    /* Styles */
+    img {
+        width: 100%;
+    }
+  }
+
