@@ -1,10 +1,34 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "../src/components/App";
+import Register from '../src/components/Register';
+import Login from '../src/components/Login';
+import Userhome from '../src/components/Userhome';
+import CreateWorkout from '../src/components/CreateWorkout';
 import { createBrowserHistory } from 'history';
 import { Switch, Route, Router } from 'react-router';
 
 const routes = [
+    {
+        path: '/register',
+        component: Register,
+        name: 'Register-Page'
+    },
+    {
+        path: '/login',
+        component: Login,
+        name: 'Login-Page'
+    },
+    {
+        path: '/userhome',
+        component: Userhome,
+        name: 'Userhome-Page'
+    },
+    {
+        path: '/create',
+        component: CreateWorkout,
+        name: 'CreateWorkout-Page'
+    },
     {
         path: '/',
         component: App,

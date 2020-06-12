@@ -45,15 +45,12 @@
  *************************** */
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 560px) {
-    /* Styles */
-    .quote,
-    .contact {
-      font-size: .75em;
-    }
+    /* Styles for Nav component*/
     .nav-img {
         padding-left: 2em;
         width: 100%;
     }
+    /* Styles for App component*/
     .app-main-h1{
         font-size: 1.25em;
     }
@@ -63,6 +60,12 @@
     }
     .app-main-content {
         width: 75%;
+    }
+    
+    /* Styles for Footer component*/
+    .quote,
+    .contact {
+      font-size: .75em;
     }
   }
 

@@ -13,7 +13,7 @@ class Footer extends Component {
                 </div>
                 <div className="contact">
                     <p>Built by Mike Bocon</p>
-                    <a href='https://www.linkedin.com/in/mike-bocon/' target="_blank"><i className="fa fa-linkedin-square footer-linkedin" aria-hidden="true"></i></a>
+                    <a href='https://www.linkedin.com/in/mike-bocon/' target="_blank" rel="noopener noreferrer" ><i className="fa fa-linkedin-square footer-linkedin" aria-hidden="true"></i></a>
                 </div>
                 <div className="quote">
                 <blockquote cite="https://www.goalcast.com/2017/05/30/top-15-arnold-schwarzenegger-quotes/">

@@ -21,5 +21,16 @@ nav {
     padding: 1em 3em;
     width: 100%;
     margin-top: 1em;
-    outline: none!important;
 }
+
+.fa-home {
+  margin-left: .25em;
+  font-size: 1.15em;
+}
+
+.fa-user-plus,
+.fa-sign-in,
+.fa-sign-out {
+  margin-left: .25em;
+}
+
